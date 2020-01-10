@@ -1,0 +1,559 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dc:/program files (x86)/modeltech_pe_edu_10.4a/examples
+vATAN_ROM
+!s110 1578665385
+!i10b 1
+!s100 LmZ8=8i6IDPdBCb00om973
+I3^ZzP>X5DjWMhh>li4:LP3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/faks/FEUP/PSDI/project/sim
+w1578617772
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/ATAN_ROM.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/ATAN_ROM.v
+L0 36
+Z2 OP;L;10.4a;61
+r1
+!s85 0
+31
+!s108 1578665385.000000
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/ATAN_ROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/ATAN_ROM.v|
+!s101 -O0
+!i113 1
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@a@t@a@n_@r@o@m
+vddsgeneric
+Z4 !s110 1578665379
+!i10b 1
+!s100 2bUfbWSRIQUT:K@[m@]2z0
+IA<Clg<l<KkXHa@?1jkTd83
+R0
+R1
+Z5 w1578577032
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/ddsgeneric.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/ddsgeneric.v
+L0 31
+R2
+r1
+!s85 0
+31
+Z6 !s108 1578665379.000000
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/ddsgeneric.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/ddsgeneric.v|
+!s101 -O0
+!i113 1
+R3
+vioports
+Z7 !s110 1578665380
+!i10b 1
+!s100 :;>KQAC<dNXibESbd_m8G3
+I8G8MD;]<I[T8S7e>1<9ZN3
+R0
+R1
+R5
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/ioports.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/ioports.v
+L0 18
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/ioports.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/ioports.v|
+!s101 -O0
+!i113 1
+R3
+vITERCOUNTER
+R7
+!i10b 1
+!s100 mCR4cE@n2:jYcGEfQmHgT1
+IQ2kE]hl_33M0W1e5;_>H<3
+R0
+R1
+w1574702372
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/ITERCOUNTER.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/ITERCOUNTER.v
+L0 28
+R2
+r1
+!s85 0
+31
+Z8 !s108 1578665380.000000
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/ITERCOUNTER.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/ITERCOUNTER.v|
+!s101 -O0
+!i113 1
+R3
+n@i@t@e@r@c@o@u@n@t@e@r
+vMODSCALE
+R7
+!i10b 1
+!s100 l1IPJ]jH`TGX3jdVUNPB?0
+I0;NnkTazA0?CaGR@I72FU1
+R0
+R1
+w1578615884
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/MODSCALE.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/MODSCALE.v
+L0 29
+R2
+r1
+!s85 0
+31
+R8
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/MODSCALE.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/MODSCALE.v|
+!s101 -O0
+!i113 1
+R3
+n@m@o@d@s@c@a@l@e
+vphase2speed
+!s110 1578666865
+!i10b 1
+!s100 NVE7=]1XcgcZm>g[26M743
+IeVF;Zf1aZPDoo<jP61FA12
+R0
+R1
+w1578666861
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/phase2speed.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/phase2speed.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1578666865.000000
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/phase2speed.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/phase2speed.v|
+!s101 -O0
+!i113 1
+R3
+vphasecalc
+Z9 !s110 1578665381
+!i10b 1
+!s100 C7h0Rcmk?C8B8Z?h:Y=iQ3
+IZA3jUz]cVSfV7XJPh9n_<2
+R0
+R1
+w1578592968
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/phasecalc.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/phasecalc.v
+L0 2
+R2
+r1
+!s85 0
+31
+R8
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/phasecalc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/phasecalc.v|
+!s101 -O0
+!i113 1
+R3
+vphasecalc_fsm
+R9
+!i10b 1
+!s100 N?0H1Gl]_B<kCEeEQOkS=1
+Ig:z>ol2]@^[JiHSDK2a>M1
+R0
+R1
+w1576428158
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/phasecalc_fsm.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/phasecalc_fsm.v
+L0 2
+R2
+r1
+!s85 0
+31
+Z10 !s108 1578665381.000000
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/phasecalc_fsm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/phasecalc_fsm.v|
+!s101 -O0
+!i113 1
+R3
+vphasecalc_tb
+Z11 !s110 1578665378
+!i10b 1
+!s100 b<1>ab54Hz3zSe]fgLA?g1
+IO;jzl[5H9D8Rf@i[KhcD21
+R0
+R1
+w1578594836
+8D:/faks/FEUP/PSDI/project/src/verilog-tb/phasecalc_tb.v
+FD:/faks/FEUP/PSDI/project/src/verilog-tb/phasecalc_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1578665377.000000
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-tb/phasecalc_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-tb/phasecalc_tb.v|
+!s101 -O0
+!i113 1
+R3
+vphasediff
+R9
+!i10b 1
+!s100 8B=oCkm<>1[[AgK?bc3Po2
+I6VKiQCW2C__oAXndClIEe1
+R0
+R1
+w1578605122
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/phasediff.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/phasediff.v
+L0 1
+R2
+r1
+!s85 0
+31
+R10
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/phasediff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/phasediff.v|
+!s101 -O0
+!i113 1
+R3
+vreal2cpx
+R9
+!i10b 1
+!s100 QkWoAHN?V_F9:4;l`J^k>3
+IiX^5hlzJSG6HdNZ^P<T[41
+R0
+R1
+w1576523984
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/real2cpx.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/real2cpx.v
+L0 4
+R2
+r1
+!s85 0
+31
+R10
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/real2cpx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/real2cpx.v|
+!s101 -O0
+!i113 1
+R3
+vreal2cpx_tb
+R11
+!i10b 1
+!s100 d:IgAj9NHmSZT4=kJjlQm1
+IQ6V522WnJGWjnbbDoa6n;1
+R0
+R1
+w1575308722
+8D:/faks/FEUP/PSDI/project/src/verilog-tb/real2cpx_tb.v
+FD:/faks/FEUP/PSDI/project/src/verilog-tb/real2cpx_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+Z12 !s108 1578665378.000000
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-tb/real2cpx_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-tb/real2cpx_tb.v|
+!s101 -O0
+!i113 1
+R3
+vrec2pol_2step
+Z13 !s110 1578665382
+!i10b 1
+!s100 XfP8[c7775>4WcKgHjZUB1
+I9`M6na48ozfK]f6<l0D4W2
+R0
+R1
+w1575995256
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/rec2pol_2step.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/rec2pol_2step.v
+Z14 L0 25
+R2
+r1
+!s85 0
+31
+Z15 !s108 1578665382.000000
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/rec2pol_2step.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/rec2pol_2step.v|
+!s101 -O0
+!i113 1
+R3
+vrec2pol_2step_1
+R13
+!i10b 1
+!s100 ZX?T@;WGS9K33E`83z2N80
+IXJNmhQ[XMY@H`=`5B12393
+R0
+R1
+w1578612052
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/rec2pol_2step_1.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/rec2pol_2step_1.v
+R14
+R2
+r1
+!s85 0
+31
+R15
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/rec2pol_2step_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/rec2pol_2step_1.v|
+!s101 -O0
+!i113 1
+R3
+vrec2pol_tb
+R11
+!i10b 1
+!s100 O@TN_maDef<mQMHXGUZ1n2
+I^C<]n=[@@i6`UC;D>ZQUo0
+R0
+R1
+w1575914528
+8D:/faks/FEUP/PSDI/project/src/verilog-tb/rec2pol_tb.v
+FD:/faks/FEUP/PSDI/project/src/verilog-tb/rec2pol_tb.v
+L0 27
+R2
+r1
+!s85 0
+31
+R12
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-tb/rec2pol_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-tb/rec2pol_tb.v|
+!s101 -O0
+!i113 1
+R3
+vrxreceiver
+R13
+!i10b 1
+!s100 TgE;lga]cS_o:Y4]0k?k^0
+IK1aQ=1nDnokmim;MoVYlH3
+R0
+R1
+w1578660158
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/rxreceiver.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/rxreceiver.v
+Z16 L0 16
+R2
+r1
+!s85 0
+31
+R15
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/rxreceiver.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/rxreceiver.v|
+!s101 -O0
+!i113 1
+R3
+vs6base_tb
+R11
+!i10b 1
+!s100 6zIoX;mj25dXX>ziehWUK1
+I;VZ7hG:_<lmGaBCZ0VTWH2
+R0
+R1
+w1578662272
+8D:/faks/FEUP/PSDI/project/src/verilog-tb/s6base_tb.v
+FD:/faks/FEUP/PSDI/project/src/verilog-tb/s6base_tb.v
+L0 17
+R2
+r1
+!s85 0
+31
+R12
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-tb/s6base_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-tb/s6base_tb.v|
+!s101 -O0
+!i113 1
+R3
+vs6base_top
+Z17 !s110 1578665383
+!i10b 1
+!s100 3i]dh6R08i9KX:53Rm6dk3
+ITX`35GnU8A2dOfCn[DR9a3
+R0
+R1
+w1578659794
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/s6base_top.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/s6base_top.v
+R16
+R2
+r1
+!s85 0
+31
+R15
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/s6base_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/s6base_top.v|
+!s101 -O0
+!i113 1
+R3
+vuart
+R17
+!i10b 1
+!s100 UjX5VSX<7[8U^a?oPT9dO3
+I`]XND5VN6IkCg9Ek`I7Q22
+R0
+R1
+R5
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/uart.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/uart.v
+Z18 L0 11
+R2
+r1
+!s85 0
+31
+Z19 !s108 1578665383.000000
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/uart.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/uart.v|
+!s101 -O0
+!i113 1
+R3
+vuart_sim
+R11
+!i10b 1
+!s100 Fj?N8`6jZ6KB3o[TkN3QM2
+I791gf:fM1=fId6;]G@1Ej0
+R0
+R1
+R5
+8D:/faks/FEUP/PSDI/project/src/verilog-tb/uart_sim.v
+FD:/faks/FEUP/PSDI/project/src/verilog-tb/uart_sim.v
+R18
+R2
+r1
+!s85 0
+31
+R12
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-tb/uart_sim.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-tb/uart_sim.v|
+!s101 -O0
+!i113 1
+R3
+vwind
+R17
+!i10b 1
+!s100 =lXzL4z0zZgeT?eDMafa_3
+IF]UKLElT_FlXO@H8NOIlb3
+R0
+R1
+w1578661454
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/wind.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/wind.v
+L0 1
+R2
+r1
+!s85 0
+31
+R19
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/wind.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/wind.v|
+!s101 -O0
+!i113 1
+R3
+vwind_tb
+R4
+!i10b 1
+!s100 YKc4CVZAVeeJM`jiTIP^d3
+ISTB>d7XPfPMA_hGD9:bGI2
+R0
+R1
+w1578598092
+8D:/faks/FEUP/PSDI/project/src/verilog-tb/wind_tb.v
+FD:/faks/FEUP/PSDI/project/src/verilog-tb/wind_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-tb/wind_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-tb/wind_tb.v|
+!s101 -O0
+!i113 1
+R3
+vwinddir
+!s110 1578666486
+!i10b 1
+!s100 bHjO`d?3FIV[8c6_3h^@]1
+IHJ=0:SbED>=Gij_k56oX70
+R0
+R1
+w1578666375
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/winddir.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/winddir.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1578666486.000000
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/winddir.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/winddir.v|
+!s101 -O0
+!i113 1
+R3
+vwinddir_tb
+!s110 1578666485
+!i10b 1
+!s100 Ya;[WOSQb<bna9YXVnOCk0
+I1_eK?hOGNYdAZXYi`BOVF1
+R0
+R1
+w1578666479
+8D:\faks\FEUP\PSDI\project\src\verilog-tb\winddir_tb.v
+FD:\faks\FEUP\PSDI\project\src\verilog-tb\winddir_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1578666485.000000
+!s107 D:\faks\FEUP\PSDI\project\src\verilog-tb\winddir_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\faks\FEUP\PSDI\project\src\verilog-tb\winddir_tb.v|
+!s101 -O0
+!i113 1
+R3
+vwinddirection
+Z20 !s110 1578665384
+!i10b 1
+!s100 NIgSHd?bJ2nODGh8_Gn<30
+Izi>39E`b8`YhGB<g<lWm40
+R0
+R1
+R5
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/winddirection.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/winddirection.v
+L0 19
+R2
+r1
+!s85 0
+31
+Z21 !s108 1578665384.000000
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/winddirection.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/winddirection.v|
+!s101 -O0
+!i113 1
+R3
+vwindrec2pol
+R20
+!i10b 1
+!s100 ZiznaLWA]Fafo]0C^_XGK0
+IK@U:BZ]PF8fgQ@58?15Ib1
+R0
+R1
+w1578613628
+8D:/faks/FEUP/PSDI/project/src/verilog-rtl/windrec2pol.v
+FD:/faks/FEUP/PSDI/project/src/verilog-rtl/windrec2pol.v
+L0 1
+R2
+r1
+!s85 0
+31
+R21
+!s107 D:/faks/FEUP/PSDI/project/src/verilog-rtl/windrec2pol.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/faks/FEUP/PSDI/project/src/verilog-rtl/windrec2pol.v|
+!s101 -O0
+!i113 1
+R3

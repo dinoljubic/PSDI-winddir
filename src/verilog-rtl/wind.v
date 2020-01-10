@@ -2,9 +2,10 @@ module wind(
 	input clock,
 	input reset,
 	input endata,
+	input [3:0] spdmeanlen,
 	input [11:0] rx1,
 	input [11:0] rx2,
-	output [15:0] speed,
+	output signed [15:0] speed,
 	output validOutput
 	);
 	
@@ -58,6 +59,7 @@ module wind(
 
 	
 	phase2speed ph2spd(
+		.spdmeanlen(spdmeanlen),
 		.clock(clock),
 		.reset(reset),
 		.endata(endata),
@@ -65,9 +67,6 @@ module wind(
 		.speed(speed),
 		.newAvg(validOutput)
 	);
-	
-	real spd;
-	always@*
-		spd = (speed/real'(1<<10));
+
 	
 endmodule

@@ -2,12 +2,13 @@ module phase2speed(
 	input clock,
 	input endata,
 	input reset,
+	input [3:0] spdmeanlen,
 	input signed [18:0] phase,
 	output reg signed [15:0] speed,
 	output reg newAvg
 	);
 	
-	parameter N = 7;
+	parameter N = 11;
 	
 	reg signed [31:0] acc;
 	reg [N:0] counter;
@@ -36,10 +37,10 @@ module phase2speed(
 	begin
 		case (state)
 		0: newAvg = 0;
-		1: begin newAvg = 0; counter = 1<<N; acc = 0; end
+		1: begin newAvg = 0; counter = 1<<spdmeanlen; acc = 0; end
 		2: newAvg = 0;
 		3: begin newAvg = 0; acc = acc+phase; counter = counter-1; end
-		4: begin newAvg = 1; speed = ((acc>>N)*18026)>>17; end
+		4: begin newAvg = 1; speed = ((acc>>>spdmeanlen)*18026)>>>17; end
 		endcase
 	end
 

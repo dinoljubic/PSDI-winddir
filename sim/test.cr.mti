@@ -1,0 +1,176 @@
+D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v {1 {vlog -work work -stats=none {D:\faks\FEUP\PSDI\project\src\verilog-tb\winddir_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module winddir_tb
+
+Top level modules:
+	winddir_tb
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/wind.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/wind.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module wind
+
+Top level modules:
+	wind
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-tb/wind_tb.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-tb/wind_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module wind_tb
+
+Top level modules:
+	wind_tb
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/rec2pol_2step.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/rec2pol_2step.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module rec2pol_2step
+
+Top level modules:
+	rec2pol_2step
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/ioports.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/ioports.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ioports
+
+Top level modules:
+	ioports
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-tb/rec2pol_tb.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-tb/rec2pol_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module rec2pol_tb
+
+Top level modules:
+	rec2pol_tb
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/ATAN_ROM.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/ATAN_ROM.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ATAN_ROM
+
+Top level modules:
+	ATAN_ROM
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/windrec2pol.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/windrec2pol.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module windrec2pol
+
+Top level modules:
+	windrec2pol
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/winddir.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/winddir.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module winddir
+
+Top level modules:
+	winddir
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/phasediff.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/phasediff.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module phasediff
+
+Top level modules:
+	phasediff
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-tb/real2cpx_tb.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-tb/real2cpx_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module real2cpx_tb
+
+Top level modules:
+	real2cpx_tb
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/winddirection.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/winddirection.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module winddirection
+
+Top level modules:
+	winddirection
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/uart.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/uart.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module uart
+
+Top level modules:
+	uart
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/rec2pol_2step_1.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/rec2pol_2step_1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module rec2pol_2step_1
+
+Top level modules:
+	rec2pol_2step_1
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/phasecalc.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/phasecalc.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module phasecalc
+
+Top level modules:
+	phasecalc
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/ITERCOUNTER.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/ITERCOUNTER.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ITERCOUNTER
+
+Top level modules:
+	ITERCOUNTER
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-tb/s6base_tb.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-tb/s6base_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module s6base_tb
+
+Top level modules:
+	s6base_tb
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-tb/phasecalc_tb.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-tb/phasecalc_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module phasecalc_tb
+
+Top level modules:
+	phasecalc_tb
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/s6base_top.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/s6base_top.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module s6base_top
+
+Top level modules:
+	s6base_top
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/rxreceiver.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/rxreceiver.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module rxreceiver
+
+Top level modules:
+	rxreceiver
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/MODSCALE.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/MODSCALE.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MODSCALE
+
+Top level modules:
+	MODSCALE
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/ddsgeneric.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/ddsgeneric.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ddsgeneric
+
+Top level modules:
+	ddsgeneric
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-tb/uart_sim.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-tb/uart_sim.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module uart_sim
+
+Top level modules:
+	uart_sim
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/real2cpx.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/real2cpx.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module real2cpx
+
+Top level modules:
+	real2cpx
+
+} {} {}} D:/faks/FEUP/PSDI/project/src/verilog-rtl/phasecalc_fsm.v {1 {vlog -work work -stats=none D:/faks/FEUP/PSDI/project/src/verilog-rtl/phasecalc_fsm.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module phasecalc_fsm
+
+Top level modules:
+	phasecalc_fsm
+
+} {} {}}

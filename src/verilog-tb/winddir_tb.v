@@ -10,16 +10,30 @@ module winddir_tb;
 	reg [11:0] rx3;
 	reg [11:0] rx4;
 	reg [11:0] rx2;
+	reg [3:0] spdmeanlen;
 
 	// Outputs
 	//wire signed [12:0] mod;
 	wire signed [15:0] speed;
 	wire signed [15:0] direction;
+	wire signed [15:0] speedX,speedY;
+	wire speeden;
 	
+	real spd, dir, spdX, spdY;
+	always@*
+	begin
+		spd = real'(speed)/(1<<10);
+		dir = real'(direction)/(1<<7);
+		spdX = real'(speedX)/(1<<10);
+		spdY = real'(speedY)/(1<<10);
+	end
+	
+
 	parameter MAXSIMDATA = 2000;
 	parameter
-		rxuwX_file = "../simdata/data_rx2.hex", // upwind along X (left receiver)
-		rxdwX_file = "../simdata/data_rx4.hex",
+		// Switched Uw & dw
+		rxuwX_file = "../simdata/data_rx4.hex", // upwind along X (left receiver)
+		rxdwX_file = "../simdata/data_rx2.hex",
 		rxuwY_file = "../simdata/data_rx3.hex",
 		rxdwY_file = "../simdata/data_rx1.hex";
 		
@@ -38,7 +52,11 @@ module winddir_tb;
 		.rx3(rx3),
 		.rx4(rx4),
 		.speed(speed),
-		.direction(direction)
+		.speedX(speedX),
+		.speedY(speedY),
+		.direction(direction),
+		.spdmeanlen(spdmeanlen),
+		.speeden(speeden)
 	);
 
 	initial begin
@@ -46,6 +64,8 @@ module winddir_tb;
 		$readmemh( rxdwX_file, vrxdw );
 		$readmemh( rxuwY_file, vryuw );
 		$readmemh( rxdwY_file, vrydw );
+		
+		spdmeanlen = 6;
 	end
 	
 	// Initialize inputs:

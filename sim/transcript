@@ -1,0 +1,239 @@
+# Compile of phasecalc_tb.v was successful.
+# Compile of real2cpx_tb.v was successful.
+# Compile of rec2pol_tb.v was successful.
+# Compile of s6base_tb.v was successful.
+# Compile of uart_sim.v was successful.
+# Compile of wind_tb.v was successful.
+# Compile of winddir_tb.v was successful.
+# Compile of ddsgeneric.v was successful.
+# Compile of ioports.v was successful.
+# Compile of ITERCOUNTER.v was successful.
+# Compile of MODSCALE.v was successful.
+# Compile of phase2speed.v was successful.
+# Compile of phasecalc.v was successful.
+# Compile of phasecalc_fsm.v was successful.
+# Compile of phasediff.v was successful.
+# Compile of real2cpx.v was successful.
+# Compile of rec2pol_2step.v was successful.
+# Compile of rec2pol_2step_1.v was successful.
+# Compile of rxreceiver.v was successful.
+# Compile of s6base_top.v was successful.
+# Compile of uart.v was successful.
+# Compile of wind.v was successful.
+# Compile of winddir.v was successful.
+# Compile of winddirection.v was successful.
+# Compile of windrec2pol.v was successful.
+# Compile of ATAN_ROM.v was successful.
+# 26 compiles, 0 failed with no errors.
+vsim work.winddir_tb
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 14:11:43 on Jan 10,2020
+# Loading work.winddir_tb
+# Loading work.winddir
+# Loading work.wind
+# Loading work.real2cpx
+# Loading work.phasecalc
+# Loading work.phasecalc_fsm
+# Loading work.rec2pol_2step
+# Loading work.ATAN_ROM
+# Loading work.ITERCOUNTER
+# Loading work.phasediff
+# Loading work.phase2speed
+# Loading work.windrec2pol
+# Loading work.rec2pol_2step_1
+# Loading work.MODSCALE
+# ** Warning: (vsim-3017) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(32): [TFMPC] - Too few port connections. Expected 13, found 9.
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb/uut File: D:/faks/FEUP/PSDI/project/src/verilog-rtl/winddir.v
+# ** Warning: (vsim-3722) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(32): [TFMPC] - Missing connection for port 'spdmeanlen'.
+# ** Warning: (vsim-3722) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(32): [TFMPC] - Missing connection for port 'speedX'.
+# ** Warning: (vsim-3722) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(32): [TFMPC] - Missing connection for port 'speedY'.
+# ** Warning: (vsim-3722) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(32): [TFMPC] - Missing connection for port 'speeden'.
+add wave -position end  sim:/winddir_tb/uut/spdmeanlen
+add wave -position end  sim:/winddir_tb/uut/rx1
+add wave -position end  sim:/winddir_tb/uut/rx2
+add wave -position end  sim:/winddir_tb/uut/rx3
+add wave -position end  sim:/winddir_tb/uut/rx4
+add wave -position end  sim:/winddir_tb/uut/speedX
+add wave -position end  sim:/winddir_tb/uut/speedY
+add wave -position end  sim:/winddir_tb/uut/speed
+add wave -position end  sim:/winddir_tb/uut/direction
+add wave -position end  sim:/winddir_tb/uut/speeden
+add wave -position end  sim:/winddir_tb/uut/validSpdX
+add wave -position end  sim:/winddir_tb/uut/validSpdY
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx2.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(45)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx4.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(46)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx3.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(47)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx1.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(48)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Note: $stop    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(110)
+#    Time: 201111 ns  Iteration: 1  Instance: /winddir_tb
+# Break in Module winddir_tb at D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v line 110
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of winddir_tb.v was successful.
+restart
+# Loading work.winddir_tb
+# ** Warning: (vsim-3017) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(33): [TFMPC] - Too few port connections. Expected 13, found 10.
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb/uut File: D:/faks/FEUP/PSDI/project/src/verilog-rtl/winddir.v
+# ** Warning: (vsim-3722) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(33): [TFMPC] - Missing connection for port 'speedX'.
+# ** Warning: (vsim-3722) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(33): [TFMPC] - Missing connection for port 'speedY'.
+# ** Warning: (vsim-3722) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(33): [TFMPC] - Missing connection for port 'speeden'.
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx2.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(47)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx4.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(48)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx3.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(49)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx1.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(50)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Note: $stop    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(114)
+#    Time: 201111 ns  Iteration: 1  Instance: /winddir_tb
+# Break in Module winddir_tb at D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v line 114
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of winddir_tb.v failed with 1 errors.
+# Compile of winddir.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of winddir_tb.v was successful.
+restart
+# Loading work.winddir_tb
+# Loading work.winddir
+# ** Warning: (vsim-3017) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(40): [TFMPC] - Too few port connections. Expected 13, found 10.
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb/uut File: D:/faks/FEUP/PSDI/project/src/verilog-rtl/winddir.v
+# ** Warning: (vsim-3722) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(40): [TFMPC] - Missing connection for port 'speedX'.
+# ** Warning: (vsim-3722) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(40): [TFMPC] - Missing connection for port 'speedY'.
+# ** Warning: (vsim-3722) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(40): [TFMPC] - Missing connection for port 'speeden'.
+add wave -position end  sim:/winddir_tb/spd
+add wave -position end  sim:/winddir_tb/dir
+add wave -position end  sim:/winddir_tb/uut/spdX
+add wave -position end  sim:/winddir_tb/uut/spdY
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx2.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(54)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx4.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(55)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx3.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(56)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx1.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(57)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Note: $stop    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(121)
+#    Time: 201111 ns  Iteration: 1  Instance: /winddir_tb
+# Break in Module winddir_tb at D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v line 121
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of winddir_tb.v was successful.
+restart
+# Loading work.winddir_tb
+# ** Warning: (vsim-3017) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(41): [TFMPC] - Too few port connections. Expected 13, found 10.
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb/uut File: D:/faks/FEUP/PSDI/project/src/verilog-rtl/winddir.v
+# ** Warning: (vsim-3722) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(41): [TFMPC] - Missing connection for port 'speedX'.
+# ** Warning: (vsim-3722) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(41): [TFMPC] - Missing connection for port 'speedY'.
+# ** Warning: (vsim-3722) D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(41): [TFMPC] - Missing connection for port 'speeden'.
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# Compile of winddir_tb.v was successful.
+# Compile of winddir.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.winddir_tb
+# Loading work.winddir
+# Warning in wave window restart: (vish-4014) No objects found matching '/winddir_tb/uut/spdX'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/winddir_tb/uut/spdY'. 
+add wave -position end  sim:/winddir_tb/spdX
+add wave -position end  sim:/winddir_tb/spdY
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx4.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(63)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx2.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(64)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx3.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(65)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx1.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(66)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Note: $stop    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(130)
+#    Time: 201111 ns  Iteration: 1  Instance: /winddir_tb
+# Break in Module winddir_tb at D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v line 130
+# wrong # args: should be "load file ?pkg? ?interp?"
+add wave -position end  sim:/winddir_tb/uut/windX/ph2spd/phase
+add wave -position end  sim:/winddir_tb/uut/windX/ph2spd/speed
+restart
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx4.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(63)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx2.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(64)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx3.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(65)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx1.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(66)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Note: $stop    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(130)
+#    Time: 201111 ns  Iteration: 1  Instance: /winddir_tb
+# Break in Module winddir_tb at D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v line 130
+# wrong # args: should be "load file ?pkg? ?interp?"
+add wave -position 18  sim:/winddir_tb/uut/windX/ph2spd/acc
+restart
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx4.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(63)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx2.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(64)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx3.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(65)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx1.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(66)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Note: $stop    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(130)
+#    Time: 201111 ns  Iteration: 1  Instance: /winddir_tb
+# Break in Module winddir_tb at D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v line 130
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of phase2speed.v was successful.
+restart
+# Loading work.phase2speed
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx4.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(63)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx2.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(64)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx3.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(65)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx1.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(66)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Note: $stop    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(130)
+#    Time: 201111 ns  Iteration: 1  Instance: /winddir_tb
+# Break in Module winddir_tb at D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v line 130
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of phase2speed.v was successful.
+restart
+# Loading work.phase2speed
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx4.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(63)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx2.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(64)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx3.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(65)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2001 of file "../simdata/data_rx1.hex". (Current address [2000], address range [0:1999])    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(66)
+#    Time: 0 ns  Iteration: 0  Instance: /winddir_tb
+# ** Note: $stop    : D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v(130)
+#    Time: 201111 ns  Iteration: 1  Instance: /winddir_tb
+# Break in Module winddir_tb at D:/faks/FEUP/PSDI/project/src/verilog-tb/winddir_tb.v line 130
+# wrong # args: should be "load file ?pkg? ?interp?"
