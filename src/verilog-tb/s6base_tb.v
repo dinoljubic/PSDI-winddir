@@ -184,9 +184,7 @@ begin
   // Some examples are:
   
   // ---- A "set wind - read results" cycle should repeat from here ...
-  //SetWind( 0, 32.0802 );  // Set wind to 5 m/s, angle 0 dgr
-  //SetWind( -35.7219,  73.3025 );  // Set wind to 12.7 m/s, angle 154.0 dgr
-  SetWind(  75.7013,  22.5433 );  // Set wind to 12.3 m/s, angle 73.4 dgr
+  SetWind(  0, 5.000 , 0, 32.0802);  // Set wind to 5 m/s, angle 0 dgr, 0 and 32.0802 are the correpsonding delta phases
   
   // Wait 256 sampling periods. Each sampling period is 1000 clock cycles 
   // of the external clock (100 MHz). For a filter length of 64 this is enough
@@ -212,10 +210,13 @@ begin
   // Wait some more time just to help observing the waveform results.
   repeat ( 100 * 1000 )
     @(posedge clk100M);
+	 
 
   // ---- ... to here
 
-  SetWind( -16.3430,  18.0874 );  // Set wind to  3.8 m/s, angle 42.1 dgr
+  //SetWind( 42.1,  3.8,  16.3430,  18.0874 );  // Set wind to  3.8 m/s, angle 42.1 dgr, 16.3430,  18.0874 are the correpsonding delta phases
+  //SetWind( -14.9,  11,  77.3548,  -20.5642 );  // Set wind to  3.8 m/s, angle 42.1 dgr, 16.3430,  18.0874 are the correpsonding delta phases
+  SetWind( 161.1,  16.40,  -113.0301,  38.6290 );
   
   // Wait 256 sampling periods. Each sampling period is 1000 clock cycles 
   // of the external clock (100 MHz). For a filter length of 64 this is enough
@@ -245,9 +246,9 @@ begin
 
   $display("----------------------------------------\n***END OF SIMULATION ***\n");
   // Other examples:
-  //SetWind( -35.7219,  73.3025 );  // Set wind to 12.7 m/s, angle 154.0 dgr
-  //SetWind(  42.8892, -45.9957 );  // Set wind to 9.8 m/s, angle -137.0 dgr  
-  //SetWind(  75.7013,  22.5433 );  // Set wind to 12.3 m/s, angle 73.4 dgr
+  // SetWind( -35.7219,  73.3025 );  // Set wind to 12.7 m/s, angle 154.0 dgr
+  // SetWind(  42.8892, -45.9957 );  // Set wind to 9.8 m/s, angle -137.0 dgr  
+  // SetWind(  75.7013,  22.5433 );  // Set wind to 12.3 m/s, angle 73.4 dgr
   
 
 
@@ -258,11 +259,19 @@ end
 
 
 task SetWind;
+input real rangle, rwind;
 input real phasediff42, phasediff13;
 
 reg signed [31:0] iphase1, iphase2, iphase3, iphase4;
-
+integer iwind, iangle;
 begin
+
+  // Convert to integer:
+  iwind = rwind;  
+  iangle = rangle; 
+  
+  WritePort(  iwind, 2 ); // Write to port address 2, the wind modulus 
+  WritePort( iangle, 3 ); // Write to port address 3, the wind angle
   
   // Phase 2 is set to 0, phase 4 is set to phasediff42
   iphase2 = 0;
